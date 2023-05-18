@@ -1,0 +1,44 @@
+str           字符串
+int           整数
+float        小数
+bool        布尔类型    True  False 关键字
+ 
+变量 = ''' '''    三引号保留格式输出
+
+input   阻塞函数 默认str
+数据类型转换 
+语法：   要变的数据类型（变量）
+例：int（a）
+
+str——>int     int(a)      但是 str ='小数' 时报错
+str——>float  float(a)
+int——>float  float(a)  
+float——>int  int(a)      但是小数点后面的会被忽略
+bool——>int                 true为1，false为0
+int——>bool                 a大于或等于1为true，a=0为false 
+str——>bool                 str只要有值（空格）为true
+
+end='\n'    末尾换行
+运算符
+/        除法        
+//       整除
+m**n  m的n次方 
+
+关系运算符
+>  <  >=  <=   ==  !=
+结果： True  False
+
+逻辑运算符
+and   并且
+print（a and b）ab都是非零的数字，输出后面的数值，由一个为零，输出0
+
+or  只要一侧为真，结果为真
+
+not 取反
+
+python格式化输出———占位符
+%d      digit   整数     
+%s       string
+%f       float
+
+
